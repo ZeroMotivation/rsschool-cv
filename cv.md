@@ -1,14 +1,14 @@
-## Nikita Guderyanov
+# Nikita Guderyanov
 
 ## Contacts
 + Phone: +7(924)-130-88-10
 + E-mail: guderyanovnv@gmail.com
 + Telegram: @nik_gud
-+ Discord: [Nikita]({Zero Motivation}#3784)
++ Discord: Nikita (@ZeroMotivation)
 + Github: [ZeroMotivation](https://github.com/ZeroMotivation)
 
 ## About
-
+I'm working a medical engeneer now. My hobby is create games with Unity engine and C#. 
 
 ## Skills
 + C#
@@ -54,7 +54,7 @@
 
 ## Education
 + Sber University
-    - Frontend Developer (in progress)
+    - Frontend Developer (2022 - in progress)
 + Saint Petersburg Electrotechnical University 'LETI' (2019-2021)
     - Biotechnical Systems and Technologies (master)
 + Far Eastern Federal University FEFU (2015-2019)
