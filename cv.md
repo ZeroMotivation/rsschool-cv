@@ -1,33 +1,28 @@
 ## Nikita Guderyanov
-
-=======
+----
 ## Contacts
-
-=======
-    + Phone: +7(924)-130-88-10
-    + E-mail: guderyanovnv@gmail.com
-    + Telegram: 
-    + Discord: 
-    + Github: [ZeroMotivation](https://github.com/ZeroMotivation)
+----
++ Phone: +7(924)-130-88-10
++ E-mail: guderyanovnv@gmail.com
++ Telegram: 
++ Discord: 
++ Github: [ZeroMotivation](https://github.com/ZeroMotivation)
 
 ## About
-
-======
+----
 
 ## Skills
-
-======
-    + C#
-    + Unity
-    + HTML
-    + CSS
-    + JS
-    + Git
-    + Adobe Photoshop
+----
++ C#
++ Unity
++ HTML
++ CSS
++ JS
++ Git
++ Adobe Photoshop
 
 ## Code Example
-
-======
+----
 
 ```
     function pickPeaks(arr){
@@ -55,17 +50,14 @@
 ```
 
 ## Experience 
-
-======
+----
 
 ## Education
-
-======
-    + Saint Petersburg Electrotechnical University 'LETI' (2019-2021)
-    + Far Eastern Federal University FEFU (2015-2019)
+----
++ Saint Petersburg Electrotechnical University 'LETI' (2019-2021)
++ Far Eastern Federal University FEFU (2015-2019)
 
 ## Languages
-
-======
-    +English (A2)
+----
++ English (A2)
 
