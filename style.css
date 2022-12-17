@@ -102,6 +102,23 @@ header {
     border-radius: 10px;
 }
 
+.project-tags {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tag {
+    color: white;
+    border: 1px solid rgb(39, 39, 63);
+    background-color:rgb(39, 39, 63);
+    border-radius: 30px;
+    height: 30px;
+    text-align: center;
+}
+
 .project-card img:hover {
     transform: scale(1.2);
 }
@@ -119,5 +136,10 @@ header {
 
     .cards-container {
         grid-template-columns: auto;
+    }
+
+    .project-tags {
+        grid-template-columns: auto;
+        gap: 0px;
     }
 }
