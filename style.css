@@ -17,9 +17,18 @@ a:hover {
     padding-right: 20px;
 }
 
-nav {
+header {
     position: sticky;
     top: 0px;
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.photo {
+    width: 100%;
 }
 
 .nav__container {
