@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CV</title>
+        <link rel="stylesheet" href="/style.css">
+        <title>CV</title> 
     </head>
     <body>
         <header>
@@ -13,18 +14,18 @@
         </header>
         <nav>
             <div class="container nav__container">
-                <div>Contacts</div>
-                <div>About</div>
-                <div>Skills</div>
-                <div>Code example</div>
-                <div>Experience</div>
-                <div>Education</div>
-                <div>Languages</div>
+                <a href="#contacts">Contacts</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#code">Code example</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#languages">Languages</a>
             </div>
         </nav>
         <main>
             <div class="container main__container">
-                <section class="card contacts-card">
+                <section id="contacts" class="card contacts-card">
                     <h2>Contacts</h2>
                     <ul>
                         <li>Phone</li>
@@ -34,13 +35,13 @@
                         <li>GitHub</li>
                     </ul>
                 </section>
-                <section class="card about-card">
+                <section id="about" class="card about-card">
                     <h2>About</h2>
                     <p>
                         I’m working a medical engeneer now. My hobby is create games with Unity engine and C#.
                     </p>
                 </section>
-                <section class="card skills-card">
+                <section id="skills" class="card skills-card">
                     <h2>Skills</h2>
                     <ul>
                         <li>C#</li>
@@ -52,21 +53,21 @@
                         <li>Adobe Photoshop</li>
                     </ul>
                 </section>
-                <section class="card code-card">
+                <section id="code" class="card code-card">
                     <h2>Code example</h2>
                 </section>
-                <section class="card experience-card">
+                <section id="experience" class="card experience-card">
                     <h2>Experience</h2>
                     <h3>GameJams projects</h3>
-                    <ul>
-                        <li>Mongols At Doors</li>
-                        <li>Raid</li>
-                        <li>The Last Nightmare</li>
-                        <li>Project Extraction</li>
-                        <li>Machinae Scooter</li>
-                    </ul>
+                    <div class="cards-container">
+                        <div class="project-card"></div>
+                        <div class="project-card"></div>
+                        <div class="project-card"></div>
+                        <div class="project-card"></div>
+                        <div class="project-card"></div>
+                    </div>
                 </section>
-                <section class="card education-card">
+                <section id="education" class="card education-card">
                     <h2>Education</h2>
                     <ul>
                         <li>
@@ -80,7 +81,7 @@
                         </li>
                     </ul>
                 </section>
-                <section class="card languages-card">
+                <section id="languages" class="card languages-card">
                     <h2>Languages</h2>
                     <p>English</p>
                 </section>
