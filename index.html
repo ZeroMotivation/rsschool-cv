@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/style.css">
-        <title>CV</title> 
+        <title>Nikita Guderyanov</title> 
     </head>
     <body>
         <header>
@@ -35,12 +35,6 @@
                         <li>GitHub</li>
                     </ul>
                 </section>
-                <section id="about" class="card about-card">
-                    <h2>About</h2>
-                    <p>
-                        I’m working a medical engeneer now. My hobby is create games with Unity engine and C#.
-                    </p>
-                </section>
                 <section id="skills" class="card skills-card">
                     <h2>Skills</h2>
                     <ul>
@@ -53,8 +47,41 @@
                         <li>Adobe Photoshop</li>
                     </ul>
                 </section>
+                <section id="about" class="card about-card">
+                    <h2>About</h2>
+                    <p>
+                        I’m working a medical engeneer now. My hobby is create games with Unity engine and C#.
+                    </p>
+                </section>
                 <section id="code" class="card code-card">
                     <h2>Code example</h2>
+                    <div class="code-example">
+                        <pre>
+                            <code>
+                                function pickPeaks(arr){
+                                    let prevMax = -1;
+                                    let pos = [];
+                                    let peaks = [];
+                                    let obj = {
+                                        pos,
+                                        peaks,
+                                    }
+                                    for(let i = 1; i <= arr.length - 1; i++) {
+                                        if(arr[i] > arr[i - 1]) {
+                                        prevMax = i;
+                                        }
+                                        
+                                        if(arr[i] < arr[prevMax]) {
+                                        pos.push(prevMax);
+                                        peaks.push(arr[prevMax]);
+                                        prevMax = -1;
+                                        }
+                                    }
+                                    return obj;
+                                }
+                            </code>
+                        </pre>
+                    </div>
                 </section>
                 <section id="experience" class="card experience-card">
                     <h2>Experience</h2>
@@ -68,7 +95,7 @@
                         </div>
                         <div class="project-card">
                             <a href="https://zero-motivation.itch.io/infinite-nightmare"><img src="/images/Logo21.png" alt="The Last Nightmare Logo"></a>
-                            <p>Is there a way out of the vicious circle, or is the outcome a foregone conclusion? You have to find answers to your questions and unravel the mystery of the gloomy nightmare in which you find yourself. But time is short, because while you are trying to understand what happens from scraps of scattered notes, death is already breathing down your back ...</p>
+                            <p>Is there a way out of the vicious circle, or is the outcome a foregone conclusion? You have to find answers to your questions and unravel the mystery of the gloomy nightmare in which you find yourself.</p>
                         </div>
                         <div class="project-card">
                             <a href="https://aniki-ta.itch.io/project-extraction"><img src="/images/logo630x500.png" alt="Projetc Extraction Logo"></a>
