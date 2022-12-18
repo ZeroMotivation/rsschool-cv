@@ -2,8 +2,8 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 a {
-    color: black;
     transition: 0.5s;
+    text-decoration: none;
 }
 
 body {
@@ -11,21 +11,20 @@ body {
     margin-left: 200px;
 }
 
-a:hover {
-    background-color: rgb(206, 180, 31);
-    text-decoration: none;
+header {
+    position: sticky;
+    width: 100%;
+    height: 40px;
+    top: 0px;
+}
+
+section {
+    margin-bottom: 50px;
 }
 
 .container {
     padding-left: 20px;
     padding-right: 20px;
-}
-
-header {
-    position: sticky;
-    width: 100%;
-    height: 50px;
-    top: 0px;
 }
 
 .main__container {
@@ -40,16 +39,43 @@ header {
 .title {
     height: 100px;
     padding: 15px 50px;
-    background-color: rgb(206, 180, 31);
+    background-color: #FF9F1C;
 }
 
 .title h1, h3 {
     margin: 0px;
 }
 
+.nav__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    padding: 0px;
+    width: auto;
+    height: 40px;
+    text-align: center;
+    background-color:#011627;
+    font-weight: 500;
+}
+
+.nav__container a {
+    color: white;
+}
+
+a:hover {
+    background-color: #FF9F1C;
+    text-decoration: none;
+    color: black;
+}
+
 
 .right {
-    background-color:rgb(250, 247, 242);
+    background-color:#FDFFFC;
+}
+
+.right h2 {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+    padding-bottom: 20px;;
 }
 
 .right__container-text {
@@ -57,7 +83,7 @@ header {
 }
 
 .left {
-    background-color: rgb(39, 39, 63);
+    background-color: #011627;
     color: white;
 }
 
@@ -67,19 +93,8 @@ header {
 
 .left h2 {
     color: black;
-    background-color:rgb(206, 180, 31);
+    background-color:#FF9F1C;
     height: 40px;;
-}
-
-.nav__container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 5px;
-    padding: 0px;
-    width: auto;
-    height: 50px;
-    text-align: center;
-    background-color:rgb(206, 216, 216)
 }
 
 .cards-container {
@@ -113,15 +128,6 @@ header {
     padding-right: 10px;
 }
 
-.tag {
-    color: white;
-    border: 1px solid rgb(39, 39, 63);
-    background-color:rgb(39, 39, 63);
-    border-radius: 30px;
-    height: 30px;
-    text-align: center;
-}
-
 .project-card img:hover {
     transform: scale(1.2);
 }
@@ -136,6 +142,12 @@ header {
     grid-template-columns: 1fr 1fr;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.education-card-name {
+    position: relative;
+    top: 20px;
 }
 
 .footer__container {
