@@ -7,8 +7,8 @@ a {
 }
 
 body {
-    margin-right: 180px;
-    margin-left: 180px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 a:hover {
@@ -89,7 +89,7 @@ header {
 
 .project-card {
     border: 1px solid rgb(110, 110, 110);
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 20px 20px;
     background-color:rgb(216, 216, 216);
 }
@@ -131,10 +131,22 @@ header {
     background-color:rgb(253, 253, 253)
 }
 
+.education__container-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .footer__container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 100px;
+}
+
+.footer__container-links {
+    display: grid;
+    grid-auto-rows: 1fr 1fr;
 }
 
 @media (max-width: 720px) {
