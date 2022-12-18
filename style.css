@@ -7,8 +7,8 @@ a {
 }
 
 body {
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 180px;
+    margin-left: 180px;
 }
 
 a:hover {
@@ -23,6 +23,8 @@ a:hover {
 
 header {
     position: sticky;
+    width: 100%;
+    height: 50px;
     top: 0px;
 }
 
@@ -74,14 +76,15 @@ header {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 5px;
     padding: 0px;
-    width: 100vw;
+    width: auto;
     height: 50px;
+    text-align: center;
     background-color:rgb(206, 216, 216)
 }
 
 .cards-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .project-card {
@@ -126,6 +129,12 @@ header {
 .code-example {
     display: flex;
     background-color:rgb(253, 253, 253)
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100px;
 }
 
 @media (max-width: 720px) {
