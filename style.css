@@ -24,7 +24,7 @@ header {
 }
 
 section {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 i {
@@ -46,7 +46,7 @@ i {
 }
 
 .title {
-    height: 5%;
+    height: 150px;
     padding: 15px 50px;
     background-color: #FF9F1C;
 }
@@ -95,6 +95,8 @@ a:hover {
 }
 
 .right {
+    display: flex;
+    flex-direction: column;
     background-color:#FDFFFC;
 }
 
@@ -165,6 +167,11 @@ a:hover {
     border: 2px dashed rgb(199, 199, 199);
 }
 
+.education__container {
+    display: flex;
+    flex-direction: column;
+}
+
 .education__container-card {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -179,8 +186,11 @@ a:hover {
     top: 20px;
 }
 
-footer {
-    height: 50px;
+.languages__card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid black;
+    font-size: 23px;
 }
 
 .rs-logo {
