@@ -32,61 +32,61 @@
                     <div class="left__container-text">
                         <section id="contacts">
                             <h2>CONTACTS</h2>
-                            <div class="contacts__container">
-                                <div class="contacts__card">
-                                    <i class="fa-solid fa-phone"></i>
-                                    +7(924)-130-88-10
-                                </div>
-                                <div class="contacts__card">
-                                    <i class="fa-sharp fa-solid fa-envelope"></i>
-                                    guderyanovnv@gmail.com
-                                </div>
-                                <div class="contacts__card">
-                                    <i class="fa-brands fa-telegram"></i>
-                                    @nik_gud
-                                </div>
-                                <div class="contacts__card">
-                                    <i class="fa-brands fa-discord"></i>
-                                    {Zero Motivation}#3784
-                                </div>
-                                <div class="contacts__card">
-                                    <i class="fa-brands fa-github"></i>
-                                    <a href="https://github.com/ZeroMotivation" target="_blank">GitHub</a>
-                                </div>
-                            </div>
+                                <ul class="contacts">
+                                    <li class="contacts__item">
+                                        <i class="fa-solid fa-phone item__icon"></i>
+                                        <span class="item__text">8(924)-130-88-19</span>
+                                    </li>
+                                    <li class="contacts__item">
+                                        <i class="fa-solid fa-envelope item__icon"></i>
+                                        <span class="item__text">guderyanovnv@gmail.com</span>
+                                    </li>
+                                    <li class="contacts__item">
+                                        <i class="fa-brands fa-discord item__icon"></i>
+                                        <span class="item__text">{Zero Motivation}#3784</span>
+                                    </li>
+                                    <li class="contacts__item">
+                                        <i class="fa-brands fa-telegram item__icon"></i>
+                                        <a href="https://t.me/nik_gud" target="_blank" class="item__text item__link">Telegram</a>
+                                    </li>
+                                    <li class="contacts__item">
+                                        <i class="fa-brands fa-github item__icon"></i>
+                                        <a href="https://github.com/ZeroMotivation" target="_blank" class="item__text item__link">GitHub</a>
+                                    </li>
+                                </ul>
                         </section>
                         <section id="skills" class="card skills-card">
                             <h2>SKILLS</h2>
-                            <div class="skills-cards">
-                                <div class="skill__card">
-                                    <i class="fa-brands fa-js"></i>
-                                    JS
-                                </div>
-                                <div class="skill__card">
-                                    <i class="fa-brands fa-html5"></i>
-                                    HTML
-                                </div>
-                                <div class="skill__card">
-                                    <i class="fa-brands fa-css3-alt"></i>
-                                    CSS
-                                </div>
-                                <div class="skill__card">
-                                    <i class="fa-brands fa-windows"></i>
-                                    C#
-                                </div>
-                                <div class="skill__card">
-                                    <i class="fa-brands fa-unity"></i>
-                                    Unity
-                                </div>
-                                <div class="skill__card">
-                                    <i class="fa-solid fa-code-branch"></i>
-                                    Git
-                                </div>
-                                <div class="skill__card">
-                                    <i class="fa-solid fa-brush"></i>
-                                    Adobe Photoshop
-                                </div>
-                            </div>
+                            <ul class="skills">
+                                <li class="skills__item">
+                                    <i class="fa-brands fa-js item__icon"></i>
+                                    <span class="item__text">JS</span>
+                                </li>
+                                <li class="skills__item">
+                                    <i class="fa-brands fa-html5 item__icon"></i>
+                                    <span class="item__text">HTML</span>
+                                </li>
+                                <li class="skills__item">
+                                    <i class="fa-brands fa-css3-alt item__icon"></i>
+                                    <span class="item__text">CSS</span>
+                                </li>
+                                <li class="skills__item">
+                                    <i class="fa-brands fa-windows item__icon"></i>
+                                    <span class="item__text">C#</span>
+                                </li>
+                                <li class="skills__item">
+                                    <i class="fa-brands fa-unity item__icon"></i>
+                                    <span class="item__text">Unity</span>
+                                </li>
+                                <li class="skills__item">
+                                    <i class="fa-solid fa-code-branch item__icon"></i>
+                                    <span class="item__text">Git</span>
+                                </li>
+                                <li class="skills__item">
+                                    <i class="fa-solid fa-brush item__icon"></i>
+                                    <span class="item__text">Adobe Photoshop</span>
+                                </li>
+                            </ul>
                         </section>
                     </div>
                 </div>
@@ -108,27 +108,27 @@
                             <div class="code-example">
                                 <pre>
                                     <code>
-                                function pickPeaks(arr){
-                                    let prevMax = -1;
-                                    let pos = [];
-                                    let peaks = [];
-                                    let obj = {
-                                        pos,
-                                        peaks,
-                                    }
-                                    for(let i = 1; i <= arr.length - 1; i++) {
-                                        if(arr[i] > arr[i - 1]) {
-                                        prevMax = i;
+                                        function pickPeaks(arr){
+                                            let prevMax = -1;
+                                            let pos = [];
+                                            let peaks = [];
+                                            let obj = {
+                                                pos,
+                                                peaks,
+                                            }
+                                            for(let i = 1; i &lt;= arr.length - 1; i++) {
+                                                if(arr[i] &gt; arr[i - 1]) {
+                                                prevMax = i;
+                                                }
+                                                
+                                                if(arr[i] &lt; arr[prevMax]) {
+                                                pos.push(prevMax);
+                                                peaks.push(arr[prevMax]);
+                                                prevMax = -1;
+                                                }
+                                            }
+                                            return obj;
                                         }
-                                        
-                                        if(arr[i] < arr[prevMax]) {
-                                        pos.push(prevMax);
-                                        peaks.push(arr[prevMax]);
-                                        prevMax = -1;
-                                        }
-                                    }
-                                    return obj;
-                                }
                                     </code>
                                 </pre>
                             </div>
