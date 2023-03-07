@@ -111,6 +111,11 @@ a:hover {
     margin-bottom: 5px;
 }
 
+
+.contacts__container {
+    padding-left: 20px;
+}
+
 .skills-cards {
     padding-left: 20px;
 }
