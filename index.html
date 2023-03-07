@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="/images/contract.png">
+        <script src="https://kit.fontawesome.com/9b1ffdd68f.js" crossorigin="anonymous"></script>
+        <title>Nikita Guderyanov</title>
+    </head>
+    <body>
+        <header>
+            <div class="container header__container">
+                <nav>
+                    <div class="container nav__container">
+                        <a href="#contacts">CONTACTS</a>
+                        <a href="#about">ABOUT</a>
+                        <a href="#skills">SKILLS</a>
+                        <a href="#code">CODE EXAMPLE</a>
+                        <a href="#experience">EXPERIENCE</a>
+                        <a href="#education">EDUCATION</a>
+                        <a href="#languages">LANGUAGES</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="container main__container">
+                <div class="left">
+                    <img src="images/Xh1eZ8c09eY.jpg" alt="Photo" class="photo">
+                    <div class="left__container-text">
+                        <section id="contacts">
+                            <h2>CONTACTS</h2>
+                                <ul class="contacts">
+                                    <li class="contacts__item">
+                                        <i class="fa-solid fa-phone item__icon"></i>
+                                        <span class="item__text">8(924)-130-88-19</span>
+                                    </li>
+                                    <li class="contacts__item">
+                                        <i class="fa-solid fa-envelope item__icon"></i>
+                                        <span class="item__text">guderyanovnv@gmail.com</span>
+                                    </li>
+                                    <li class="contacts__item">
+                                        <i class="fa-brands fa-discord item__icon"></i>
+                                        <span class="item__text">{Zero Motivation}#3784</span>
+                                    </li>
+                                    <li class="contacts__item">
+                                        <i class="fa-brands fa-telegram item__icon"></i>
+                                        <a href="https://t.me/nik_gud" target="_blank" class="item__text item__link">Telegram</a>
+                                    </li>
+                                    <li class="contacts__item">
+                                        <i class="fa-brands fa-github item__icon"></i>
+                                        <a href="https://github.com/ZeroMotivation" target="_blank" class="item__text item__link">GitHub</a>
+                                    </li>
+                                </ul>
+                        </section>
+                        <section id="skills" class="card skills-card">
+                            <h2>SKILLS</h2>
+                            <ul class="skills">
+                                <li class="skills__item">
+                                    <i class="fa-brands fa-js item__icon"></i>
+                                    <span class="item__text">JS</span>
+                                </li>
+                                <li class="skills__item">
+                                    <i class="fa-brands fa-html5 item__icon"></i>
+                                    <span class="item__text">HTML</span>
+                                </li>
+                                <li class="skills__item">
+                                    <i class="fa-brands fa-css3-alt item__icon"></i>
+                                    <span class="item__text">CSS</span>
+                                </li>
+                                <li class="skills__item">
+                                    <i class="fa-brands fa-windows item__icon"></i>
+                                    <span class="item__text">C#</span>
+                                </li>
+                                <li class="skills__item">
+                                    <i class="fa-brands fa-unity item__icon"></i>
+                                    <span class="item__text">Unity</span>
+                                </li>
+                                <li class="skills__item">
+                                    <i class="fa-solid fa-code-branch item__icon"></i>
+                                    <span class="item__text">Git</span>
+                                </li>
+                                <li class="skills__item">
+                                    <i class="fa-solid fa-brush item__icon"></i>
+                                    <span class="item__text">Adobe Photoshop</span>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+                <div class="right">
+                    <section class="title">
+                        <h1>NIKITA GUDERYANOV</h1>
+                        <h3>Front-End Developer</h3>
+                    </section>
+                    <div class="right__container-text">
+                        <section id="about" class="about-card">
+                            <h2>ABOUT</h2>
+                            <p>I am working a medical engeneer now. My hobby is create games with Unity engine and C#.</p>
+                        </section>
+                        <section id="code" class="card code-card">
+                            <h2>CODE EXAMPLE</h2>
+                            <a href="https://www.codewars.com/kata/5279f6fe5ab7f447890006a7" target="_blank">Task</a>
+                            <div class="code-example">
+                                <pre>
+                                    <code>
+                                        function pickPeaks(arr){
+                                            let prevMax = -1;
+                                            let pos = [];
+                                            let peaks = [];
+                                            let obj = {
+                                                pos,
+                                                peaks,
+                                            }
+                                            for(let i = 1; i &lt;= arr.length - 1; i++) {
+                                                if(arr[i] &gt; arr[i - 1]) {
+                                                prevMax = i;
+                                                }
+                                                if(arr[i] &lt; arr[prevMax]) {
+                                                pos.push(prevMax);
+                                                peaks.push(arr[prevMax]);
+                                                prevMax = -1;
+                                                }
+                                            }
+                                            return obj;
+                                        }
+                                    </code>
+                                </pre>
+                            </div>
+                        </section>
+                        <section id="experience" class="card experience-card">
+                            <h2>EXPERIENCE</h2>
+                            <h3>GAMEJAMS</h3>
+                            <div class="cards-container">
+                                <div class="project-card">
+                                    <a href="https://zero-motivation.itch.io/mongols-at-doors" target="_blank"><img src="images/photo1671369340.jpeg" alt="Mongols Logo"></a>
+                                    <div class="card-text">
+                                        <p>Mongols At Doors is a historical adventure game, where you take a role of an ordinary man in times of trouble.</p>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <a href="https://aniki-ta.itch.io/raid" target="_blank"><img src="images/dn3aPD.png" alt="Raid Logo"></a>
+                                    <div class="card-text">
+                                        <p>Raid is a First-Person Slasher Arena. An unfortunate magic school scholar has got into big trouble and asks you to help him.</p>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <a href="https://zero-motivation.itch.io/infinite-nightmare" target="_blank"><img src="images/Logo21.png" alt="The Last Nightmare Logo"></a>
+                                    <div class="card-text">
+                                        <p>Is there a way out of the vicious circle, or is the outcome a foregone conclusion? You have to find answers to your questions and unravel the mystery of the gloomy nightmare in which you find yourself.</p>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <a href="https://aniki-ta.itch.io/project-extraction" target="_blank"><img src="images/logo630x500.png" alt="Projetc Extraction Logo"></a>
+                                    <div class="card-text">
+                                        <p>Project Extraction is a single-player first-person horror. Find out what happened on a cargo spaceship, and what secrets people revealed while exploring the surface of Mars.</p>
+                                    </div>
+                                </div>
+                                <div class="project-card">
+                                    <a href="https://aniki-ta.itch.io/machinae-scooter" target="_blank"><img src="images/cOZS1y.jpg" alt="Machinae Scooter Logo"></a>
+                                    <div class="card-text">
+                                        <p>Machinae Scooter is a blend of action and visual novel genre where you shoot enemies and read dialogue boxes.  In other words, the game is a short anime reference experience.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="education">
+                            <h2>EDUCATION</h2>
+                            <div class="education__container">
+                                <div class="education__container-card">
+                                    <div class="education-card-name"><strong>Sber University</strong></div>
+                                    <div class="education-card-description">
+                                        <p><strong>Front-End Developer</strong></p>
+                                        <p>2022-in progress</p>
+                                    </div>
+                                </div>
+                                <div class="education__container-card">
+                                    <div class="education-card-name"><strong>Saint Petersburg Electrotechnical University "LETI"</strong></div>
+                                    <div class="education-card-description">
+                                        <p><strong>Biotechnical Systems and Technologies</strong></p>
+                                        <p>2019-2022</p>
+                                    </div>
+                                </div>
+                                <div class="education__container-card">
+                                    <div class="education-card-name"><strong>Far Eastern Federal University FEFU</strong></div>
+                                    <div class="education-card-description">
+                                        <p><strong>Biotechnical Systems and Technologies</strong></p>
+                                        <p>2015-2019</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="languages" class="languages-card">
+                            <h2>Languages</h2>
+                            <div class="languages__card">
+                                <p>English</p>
+                                <p>A2</p>
+                            </div>
+                            <div class="languages__card">
+                                <p>Russian</p>
+                                <p>Native</p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container footer__container">
+                <a href="https://rs.school/js/" target="_blank"><img src="images/rs_school_js.svg" alt="RSSchool Logo" class="rs-logo"></a>
+                <p class="footer__year">2022</p>
+            </div>
+        </footer>
+    </body>
+</html>

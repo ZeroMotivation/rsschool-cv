@@ -1,0 +1,253 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+    transition: 0.5s;
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+body {
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+header {
+    position: sticky;
+    width: 100%;
+    height: 45px;
+    top: 0px;
+}
+
+section {
+    margin-bottom: 70px;
+}
+
+i {
+    color: #FF9F1C;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.photo {
+    width: 100%;
+}
+
+.title {
+    height: 150px;
+    padding: 15px 50px;
+    background-color: #FF9F1C;
+}
+
+.title h1 {
+    font-size: 2.5em;
+}
+
+.title h1, h3 {
+    margin: 0px;
+}
+
+.nav__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2px;
+    padding: 0px;
+    width: auto;
+    height: 45px;
+    text-align: center;
+    background-color:#011627;
+    font-weight: 500;
+}
+
+.nav__container a {
+    color: white;
+}
+
+a:hover {
+    background-color: #FF9F1C;
+    text-decoration: none;
+    color: black;
+}
+
+.about-card p {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.contacts {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.contacts__item {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.item__icon {
+    margin-right: 5px;
+    font-size: 1.2em;
+}
+
+.skills {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.skills .skills__item {
+    margin-bottom: 5px;
+}
+
+.skills-cards {
+    padding-left: 20px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color:#FDFFFC;
+}
+
+.right h2 {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+    padding-bottom: 20px;;
+}
+
+.right__container-text {
+    padding-left: 50px;
+}
+
+.left {
+    background-color: #011627;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.left__container-text {
+    padding-left: 30px;
+}
+
+.left h2 {
+    color: black;
+    background-color:#FF9F1C;
+    height: 40px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.project-card {
+    border: 1px solid rgb(110, 110, 110);
+    border-radius: 20px;
+    margin: 20px 20px;
+    background-color:rgb(216, 216, 216);
+}
+
+.card-text {
+    padding: 10px 15px;
+}
+
+.project-card img {
+    width: 100%;
+    height: 50%;
+    transition: 0.7s;
+    border-radius: 10px 10px 0 0;
+}
+
+.project-tags {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.project-card img:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+.code-example {
+    display: flex;
+    background-color:rgb(253, 253, 253);
+    border: 2px dashed rgb(199, 199, 199);
+}
+
+.education__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.education__container-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    font-size: 23px;
+}
+
+.education-card-name {
+    position: relative;
+    top: 20px;
+}
+
+.languages__card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid black;
+    font-size: 23px;
+}
+
+.rs-logo {
+    height: 50px;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.footer__container-links {
+    display: grid;
+    grid-auto-rows: 1fr 1fr;
+}
+
+.footer__year {
+    justify-self: center;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 0.5;
+}
+
+@media (max-width: 720px) {
+
+    .main__container {
+        grid-template-columns: auto;
+    }
+
+    .cards-container {
+        grid-template-columns: auto;
+    }
+
+    .project-tags {
+        grid-template-columns: auto;
+        gap: 0px;
+    }
+}
