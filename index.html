@@ -98,12 +98,36 @@
                     <div class="right__container-text">
                         <section id="about" class="about-card">
                             <h2>ABOUT</h2>
-                            <p>I’m working a medical engeneer now. My hobby is create games with Unity engine and C#.</p>
+                            <p>I am working a medical engeneer now. My hobby is create games with Unity engine and C#.</p>
                         </section>
                         <section id="code" class="card code-card">
                             <h2>CODE EXAMPLE</h2>
                             <a href="https://www.codewars.com/kata/5279f6fe5ab7f447890006a7" target="_blank">Task</a>
                             <div class="code-example">
+                                <pre>
+                                    <code>
+                                        function pickPeaks(arr){
+                                            let prevMax = -1;
+                                            let pos = [];
+                                            let peaks = [];
+                                            let obj = {
+                                                pos,
+                                                peaks,
+                                            }
+                                            for(let i = 1; i &lt;= arr.length - 1; i++) {
+                                                if(arr[i] &gt; arr[i - 1]) {
+                                                prevMax = i;
+                                                }
+                                                if(arr[i] &lt; arr[prevMax]) {
+                                                pos.push(prevMax);
+                                                peaks.push(arr[prevMax]);
+                                                prevMax = -1;
+                                                }
+                                            }
+                                            return obj;
+                                        }
+                                    </code>
+                                </pre>
                             </div>
                         </section>
                         <section id="experience" class="card experience-card">
